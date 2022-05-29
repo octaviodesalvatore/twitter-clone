@@ -12,6 +12,7 @@ import { useSession } from 'next-auth/react'
 function TweetBox() {
   const [input, setInput] = useState<string>('')
   const [image, setImage] = useState<string>('')
+  console.log(image)
 
   const imageInputRef = useRef<HTMLInputElement>(null)
 
